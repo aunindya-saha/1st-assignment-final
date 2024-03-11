@@ -1,0 +1,503 @@
+body{
+    font-family: 'Merriweather';
+    font-style: normal;
+
+}
+header{
+
+    position: relative;
+    background-image: url("resources/banner.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    height: 600px;
+ 
+  
+    margin: 50px;
+    border-radius: 16px;
+   
+   
+
+
+
+}  
+
+.header-design{
+    position: absolute;
+    
+    height: 600px;
+    width: 100%;
+    /* margin: auto 300px auto 300px; */
+    text-align: center;
+    color: white;
+    position: absolute;
+    width: 1310px;
+    height: 600px;
+    left: 240px; 
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
+    border-radius: 16px;
+   
+
+}
+
+
+
+.head-subtitle{
+   
+font-weight: 400;
+font-size: 32px;
+line-height: 40px;
+text-align: center;
+padding-top: 100px;
+}
+.head-title{
+    font-weight: 900;
+font-size: 72px;
+line-height: 95px;
+text-align: center;
+
+color: #FFFFFF;
+
+
+}
+
+main{
+    
+   
+
+}
+.section-1{
+    font-family: 'Inter';
+    font-style: normal;
+    text-align: center;
+ 
+}
+#section-1-title{
+   
+    font-weight: 700;
+    font-size: 88px;
+line-height: 106px;
+/* identical to box height */
+text-align: center;
+
+color: #FF0000;
+
+
+
+}
+#section-1-description{
+    font-weight: 500;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+text-align: center;
+
+color: #FF0000;
+
+
+}
+#section-1-category{
+    font-weight: 700;
+font-size: 48px;
+line-height: 58px;
+color: #070211;
+
+}
+.section-2{
+
+    background-image: url('resources/celebration.png');
+    background-size: contain;
+    width: 1310px;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-position: center;
+    margin: 150px auto;
+    position: relative;
+    overflow: hidden;
+    border-radius: 16px;
+
+}
+
+.section-2-gradient{
+     position: absolute;
+     background-image: linear-gradient(to right, rgba(0,0,0,1),rgba(0,0,0,0));
+     width: 1320px;
+    height: 600px;
+    padding-top: 50px;
+    padding-left: 50px;
+    z-index: 1;
+    background-image: linear-gradient(to left, rgb(195, 133, 47) 100%,
+    rgb(195, 133, 47) 75% rgb(195, 133, 47) 50% rgb(195, 133, 47) 25%, rgb(195, 133, 47) 0%);
+   
+/* or 138% */
+
+
+color: #FFFFFF;
+
+}
+.section-2-gradient>h1{
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 88px;
+    letter-spacing: 0.11em;
+    
+    
+
+}
+.section-2-gradient>p{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+/* or 167% */
+
+color: rgba(255, 255, 255, 0.8);
+}
+.section-2-gradient>button{
+    font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+text-transform: uppercase;
+background-color: transparent;
+border: none;
+margin-top: 30px;
+margin-left: 40px;
+
+
+color: #FFFFFF;
+
+}
+.section-2-1-image{
+
+    display: flex;
+    justify-content: flex-end; /* Shifts the image to the right side */
+    position: relative;
+    margin-left: 900px;
+    z-index: 0;
+
+    
+
+
+}
+.section-3{
+    width: 1310px;
+    height: 482px;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.1) 0%, rgba(255, 0, 0, 0) 100%);
+    border-radius: 16px;
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    
+    text-align: center;
+    margin: 150px auto;
+    padding: 80px 0px;
+
+    overflow: hidden;
+
+    font-family: 'Inter';
+   font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 30px;
+    
+
+}
+.section-3>button{
+
+    background: #FF0000;
+border-radius: 8px;
+padding: 16px 32px;
+gap: 10px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+text-transform: uppercase;
+
+color: #FFFFFF;
+border: 0px;
+
+
+}
+.red-design{
+    color: #FF0000;
+}
+.section-4{
+    display: flex;
+    width: 1310px;
+    height: 463px;
+    margin: 150px auto;
+    justify-content: space-between;
+    align-items:center ;
+}
+.section-4-1{
+   
+    width: 400px;
+
+    
+}
+.section-4-1>h1{
+    font-weight: 900;
+font-size: 48px;
+line-height: 60px;
+color: #070211;
+}
+.section-4-2>img{
+
+    box-sizing: border-box;
+    border: 15px solid #FF0000;
+    border-radius: 50%;
+    background-color: white;
+    padding: 25px;
+    margin-left: 80px;
+    margin-right: 120px;
+
+}
+.section-4-3>p{
+    color: rgba(7, 2, 17, 0.6);
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 32px;
+
+}
+.section-4-3>h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    margin-bottom: 0px;
+/* identical to box height */
+
+    color: #FF0000;
+}
+.happy-new-year{
+  
+    margin-top: 70px;
+
+}
+.section-5{
+    display: block;
+    text-align: center;
+
+}
+.section-5>h4{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+color: #070211;
+}
+.section-5>h1{
+    font-weight: 900;
+font-size: 72px;
+line-height: 91px;
+/* identical to box height */
+text-align: center;
+
+
+
+}
+.section-5>p{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 32px;
+/* or 160% */
+text-align: center;
+
+color: rgba(7, 2, 17, 0.6);
+
+}
+.section-6{
+    height: 662.07px;
+    background-color: aquamarine;
+    width: 1310px;
+    margin: 150px auto;
+}
+.section-6-red-rectangle{
+
+    position: relative;
+   
+
+}
+.section-7{
+    width: 1320px;
+height: 1163px;
+margin: 150px auto;
+
+
+}
+.section-1>h3{
+    font-weight: 500;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+color: #FF0000;
+
+}
+.section-7>h1{
+    font-weight: 900;
+font-size: 48px;
+line-height: 60px;
+text-transform: capitalize;
+
+color: #070211;
+
+}
+.section-7>p{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 32px;
+/* or 160% */
+
+color: rgba(7, 2, 17, 0.6);
+
+margin-bottom: 40px;
+}
+.section-7>img{
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.section-8{
+    background: rgba(255, 0, 0, 0.05);
+    border-radius: 16px;
+    width: 1310px;
+    height: 616px;
+    margin: 150px auto;
+    display: block;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    padding-top: 80px;
+
+}
+.section-8>h1{
+    font-weight: 900;
+font-size: 48px;
+line-height: 60px;
+text-align: center;
+text-transform: capitalize;
+
+color: #070211;
+
+
+}
+.section-8>p{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 32px;
+/* or 160% */
+text-align: center;
+
+color: rgba(7, 2, 17, 0.6);
+
+
+}
+.mail-button{
+    padding: 40px;
+}
+.mail{
+    background: #FFFFFF;
+border-radius: 50px 0px 0px 50px;
+width: 648px;
+height: 72px;
+border: 0px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+text-align:left;
+padding-left: 50px;
+
+color: rgba(7, 2, 17, 0.3);
+
+
+}
+.mail-button>button{
+    background: #FF0000;
+border-radius: 0px 50px 50px 0px;
+width: 210px;
+height: 72px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+text-transform: capitalize;
+border: 0px;
+
+color: #FFFFFF;
+
+
+
+}
+
+footer{
+    width: 1690px;
+ background: #070211;
+ height: 400px;
+ color: white;
+ padding: 100px;
+  
+}
+.footer-sec-1{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 40px;
+
+
+color: #FFFFFF;
+}
+.footer-sec-2{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 600px;
+    margin-right: 600px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.footer-sec-3{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+
+
+}
