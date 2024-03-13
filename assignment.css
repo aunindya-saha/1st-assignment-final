@@ -324,15 +324,32 @@ color: rgba(7, 2, 17, 0.6);
 }
 .section-6{
     height: 662.07px;
-    background-color: aquamarine;
+   
     width: 1310px;
     margin: 150px auto;
 }
 .section-6-red-rectangle{
 
-    position: relative;
+    position: absolute;
+    z-index: -1;
+    top: 303rem;
+
+   
    
 
+}
+.section-6-box{
+    position: relative;
+}
+.section-6-woman{
+    position: relative;
+    top: -14rem;
+    left: 5.66rem;
+}
+.section-6-discount{
+    position: relative;
+    top: -35rem;
+    left: 45rem;
 }
 .section-7{
     width: 1320px;
