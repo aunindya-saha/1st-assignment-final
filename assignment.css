@@ -14,7 +14,18 @@ header{
     height: 600px;
  
   
-    margin: 50px;
+
+    border-radius: 16px;
+    background-size: contain;
+    width: 1310px;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-position: center;
+    margin: 50px auto;
+    position: relative;
+    overflow: hidden;
     border-radius: 16px;
    
    
@@ -25,18 +36,20 @@ header{
 
 .header-design{
     position: absolute;
-    
     height: 600px;
     width: 100%;
     /* margin: auto 300px auto 300px; */
     text-align: center;
     color: white;
     position: absolute;
-    width: 1310px;
+    /* width: 1310px; */
     height: 600px;
-    left: 240px; 
+    left: 240px;
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
     border-radius: 16px;
+    z-index: 1;
+    top: 0rem;
+    left: 0rem;
    
 
 }
@@ -472,11 +485,13 @@ color: #FFFFFF;
 }
 
 footer{
-    width: 1690px;
+    width: 1600px;
  background: #070211;
  height: 400px;
  color: white;
  padding: 100px;
+justify-content: space-between;
+margin: auto;
   
 }
 .footer-sec-1{
